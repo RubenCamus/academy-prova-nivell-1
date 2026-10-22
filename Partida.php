@@ -17,7 +17,7 @@ class Partida {
     public function addJugador(string $nombrePersona, Personaje $personaje) {
         $this->jugadores[$nombrePersona] = $personaje;
     }
-    public function validateSesion(Sesion $sesion) {
+    private function validateSesion(Sesion $sesion) {
         if ($sesion == null) {
             throw new Exception("La sesion no es valida");
         }
