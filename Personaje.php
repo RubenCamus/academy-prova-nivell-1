@@ -51,6 +51,4 @@ enum Clase {
 
     }
 
-$personaje1 = new Personaje(Clase::GUERRERO, "Duende Orco", ["ataque" => 15, "inteligencia"=> 5, "sabidura" => 13, "agilidad"=> 19, "fuerza" => 10 ]);
-var_dump($personaje1);
 ?>

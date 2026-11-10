@@ -44,10 +44,4 @@ class Partida {
         return $this->jugadores;
     }
 }
-$partida = new Partida();
-$partida->addSesion(new Sesion(9,12,18,21));
-$partida->addSesion(new Sesion(11,12,22,23));
-$ultimaSesion = $partida->getLastSesion();
-var_dump($ultimaSesion);
-echo $partida->getSesiones();
 ?>

@@ -40,8 +40,4 @@ class Sesion {
     }
 
 }
-$sesion1 = new Sesion(5,4,10,12);
-echo $sesion1->getFecha();
-echo date('d/m/y',$sesion1->getFecha()); // Aqui formateo el tiempo epoch con date
-
 ?>
